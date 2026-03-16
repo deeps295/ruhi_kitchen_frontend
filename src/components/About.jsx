@@ -84,14 +84,21 @@ const About = () => {
               At RUHI'S KITCHEN, we believe that food is a celebration of heritage. Originating from the heart of Chettinad, we bring you recipes passed down through generations, ensuring every bite carries the true essence of traditional Tamil hospitality.
             </p>
 
+            <div className="flex gap-8 items-stretch mb-12">
+              <div className="w-1.5 bg-gold shrink-0"></div>
+              <p className="text-2xl md:text-3xl font-tamil leading-relaxed text-maroon font-bold italic">
+                "ஒவ்வொரு விருந்திலும் <br />பாரம்பரியத்தின் சுவை"
+              </p>
+            </div>
+
             <div className="grid grid-cols-2 gap-12 pt-8 border-t border-gold/10">
               <div>
                 <p className="text-5xl font-bold text-maroon font-heading mb-2">25+</p>
-                <p className="text-xs text-gold font-bold uppercase tracking-[0.2em]">Years of Culinary Excellence</p>
+                <p className="text-xs text-gold font-bold uppercase tracking-[0.2em]">Years of Legacy</p>
               </div>
               <div>
-                <p className="text-5xl font-bold text-maroon font-heading mb-2">500+</p>
-                <p className="text-xs text-gold font-bold uppercase tracking-[0.2em]">Royal Banquets Served</p>
+                <p className="text-5xl font-bold text-maroon font-heading mb-2">1k+</p>
+                <p className="text-xs text-gold font-bold uppercase tracking-[0.2em]">Events Catered</p>
               </div>
             </div>
           </div>

@@ -115,32 +115,16 @@ const Services = () => {
       </div>
 
       <div className="container mx-auto px-8 relative z-10">
-        <div className="flex flex-col lg:flex-row items-start justify-between mb-24 gap-16">
-          <div className="lg:w-2/3">
-            <div className="flex gap-8 items-stretch mb-12">
-              <div className="w-1.5 bg-gold shrink-0"></div>
-              <p className="text-3xl md:text-5xl font-tamil leading-relaxed text-maroon font-bold italic">
-                "ஒவ்வொரு விருந்திலும் <br />பாரம்பரியத்தின் சுவை"
-              </p>
-            </div>
-
-            <div className="grid grid-cols-2 gap-12">
-              <div>
-                <p className="text-5xl font-bold text-maroon font-heading mb-2">25+</p>
-                <p className="text-sm text-gold font-bold uppercase tracking-[0.2em] whitespace-nowrap">Years of Legacy</p>
-              </div>
-              <div>
-                <p className="text-5xl font-bold text-maroon font-heading mb-2">1k+</p>
-                <p className="text-sm text-gold font-bold uppercase tracking-[0.2em] whitespace-nowrap">Events Catered</p>
-              </div>
-            </div>
+        <div className="flex flex-col md:flex-row items-baseline justify-start mb-24 gap-x-12 gap-y-4">
+          <div className="flex flex-col">
+            <h2 className="text-gold text-lg font-tamil tracking-[0.3em] uppercase whitespace-nowrap">சிறப்பு சேவைகள்</h2>
+            <div className="w-12 h-[1px] bg-gold opacity-30 mt-2"></div>
           </div>
-
-          <div className="lg:w-1/3 text-left lg:text-right flex flex-col justify-center">
-            <h2 className="text-gold text-lg font-tamil mb-4 tracking-[0.4em] uppercase">சிறப்பு சேவைகள்</h2>
-            <h3 className="text-maroon text-4xl md:text-6xl font-heading font-bold mb-6">Our <span className="gold-gradient-text">Signature</span> Services</h3>
-            <div className="w-24 h-[1px] bg-gold ml-0 lg:ml-auto opacity-30"></div>
-          </div>
+          <h3 className="text-maroon text-4xl md:text-6xl font-heading font-bold flex flex-wrap items-baseline gap-x-4">
+            <span>Our</span>
+            <span className="gold-gradient-text">Signature</span>
+            <span>Services</span>
+          </h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
