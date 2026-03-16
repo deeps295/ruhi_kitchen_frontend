@@ -13,13 +13,13 @@ const Footer = () => {
           <div className="flex flex-col">
             <h3 className="text-3xl font-heading font-bold mb-4 tracking-[0.1em]">RUHI'S KITCHEN</h3>
             <p className="font-tamil text-beige/80 text-lg mb-8 leading-relaxed">
-              பாரம்பர்ய சுவை, நவீன முறையில்.
+              பாரம்பரிய சுவை, நவீன முறையில்
             </p>
             <div className="flex space-x-6">
               {['f', 'ig', 'tw'].map((social) => (
-                <a 
-                  key={social} 
-                  href="#" 
+                <a
+                  key={social}
+                  href="#"
                   className="w-12 h-12 rounded-full bg-gold flex items-center justify-center hover:bg-gold-light transition-all duration-300 shadow-lg text-maroon font-bold text-xl"
                 >
                   {social}

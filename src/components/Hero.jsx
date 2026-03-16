@@ -44,12 +44,12 @@ const Hero = ({ heroImage }) => {
         >
           வரவேற்பு: உண்மையான சுவை
         </h3>
-        <h2
+        <h3
           ref={el => textRef.current[1] = el}
           className="text-white text-5xl md:text-9xl font-heading font-bold mb-6 tracking-tighter"
         >
           RUHI'S <span className="gold-gradient-text">KITCHEN</span>
-        </h2>
+        </h3>
         <p
           ref={el => textRef.current[2] = el}
           className="text-beige/90 text-lg md:text-2xl font-light mb-12 italic tracking-widest max-w-2xl mx-auto"
