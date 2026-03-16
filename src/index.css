@@ -5,12 +5,24 @@
 @tailwind utilities;
 
 :root {
-  background-color: #F5F5DC;
-  color: #6B1E1E;
+  --maroon: #6B1E1E;
+  --maroon-dark: #4A1414;
+  --gold: #D4AF37;
+  --gold-light: #F4D03F;
+  --beige: #F5F5DC;
+  --ivory: #FAF9F6;
+  --text-dark: #2C1810;
+  --text-on-maroon: #F5F5DC;
+  
+  background-color: var(--ivory);
+  color: var(--text-dark);
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 h1,
@@ -20,10 +32,42 @@ h4,
 h5,
 h6 {
   font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: var(--maroon);
 }
 
 .tamil-text {
   font-family: 'Noto Sans Tamil', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.traditional-border {
+  border: 1px solid var(--gold);
+  position: relative;
+}
+
+.traditional-border::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  border: 1px solid var(--gold);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.glass-traditional {
+  background: rgba(107, 30, 30, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #D4AF37 0%, #F4D03F 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .kolam-pattern {
